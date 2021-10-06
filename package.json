@@ -1,0 +1,16 @@
+{
+  "name": "osslic",
+  "version": "1.0.0",
+  "description": "OSS license extractor",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Forgione",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.pickby": "^4.6.0",
+    "tsv-json": "^2.0.0"
+  }
+}
