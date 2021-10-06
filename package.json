@@ -10,7 +10,6 @@
   "author": "Antonio Forgione",
   "license": "ISC",
   "dependencies": {
-    "lodash.pickby": "^4.6.0",
     "tsv-json": "^2.0.0"
   }
 }
