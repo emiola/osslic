@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { argv } from 'node:process'
-import { getJsonFileContent, exportJsonArrayToTsv } from './src/fs-helper.js'
+import { getJsonFileContent, exportJsonArrayToTsv } from './fs-helper.js'
 
 const filename = argv[2]
 

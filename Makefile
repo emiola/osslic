@@ -9,7 +9,7 @@ SOURCE = licenses.json
 all: $(TARGET) ## Scan npm packages licenses and create files `licenses.json` and `licenses.tsv`
 
 $(TARGET): $(SOURCE)
-	node index.js $(SOURCE)
+	node src/index.js $(SOURCE)
 
 $(SOURCE):
 	npx --yes yarn licenses list --json --no-progress !> $(SOURCE)
